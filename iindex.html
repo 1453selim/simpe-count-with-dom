@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Counter</title>
+  </head>
+  <body>
+    <h1>Book Reading Festival</h1>
+    <p></p>
+    <div class="book_section">
+      <ul id="book_selected"></ul>
+      <div class="inputButton">
+        <h3>Okunanlar:</h3>
+        <input type="text" class="inPut" id="todo_input" name="todo_input" value="" placeholder="write book's name which you read"/><br>
+        <button class="btn"onclick="addIthem()">Add</button>
+        
+        <ul id ="booksReading">
+            
+        </ul>
+        <p>Aim <span>:20</span><br> Read Book:<span id="okunan">0</span><br> Remaining Book: <span id="kalan">20 </span></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
